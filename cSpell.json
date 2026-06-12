@@ -1,0 +1,50 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaryDefinitions": [
+        {
+            "name": "custom-words",
+            "path": "./custom-words.txt"
+        }
+    ],
+    "dictionaries": [
+        "custom-words"
+    ],
+    "ignoreWords": [
+        "namuk",
+        "namukapp",
+        "namukapp.com"
+    ],
+    "ignorePaths": [
+        "**/vendor/**",
+        "**/node_modules/**",
+        "**/public/**",
+        "**/storage/**",
+        "**/tests/**",
+        "**/app/Config/Filters.php",
+        "**/app/Controllers/**",
+        "**/app/Models/**",
+        "**/app/Views/**",
+        "**/app/Filters/**",
+        "**/app/Libraries/**",
+        "**/app/Helpers/**",
+        "**/app/ThirdParty/**",
+        "**/app/Events/**",
+        "**/app/Commands/**",
+        "**/app/Console/**",
+        "**/app/Database/**",
+        "**/app/Language/**",
+        "**/app/Validation/**",
+        "**/app/Entities/**",
+        "**/app/Exceptions/**",
+        "**/app/Config/**",
+        "**/app/Controllers/Auth/**",
+        "**/app/Controllers/Admin/**",
+        "**/app/Controllers/Api/**",
+        "**/app/Controllers/Frontend/**",
+        "**/app/Controllers/Backend/**",
+        "**/app/Controllers/Student/**",    
+    ]
+
+    
+}
